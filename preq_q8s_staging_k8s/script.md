@@ -1,18 +1,27 @@
-# Lesson 1 - Q8S staging
+# Q8S Staging
+
+## Prerequisites
+
+* Make sure you have done _preq_q8s_keycloak_
+* Ping @llambeau so that he knows you're starting this session, he'll send you the zip file needed for this.
+
+## Goal
 
 In this session we are going to setup your workstation to access our staging Q8S cluster.
 
-## Kubectl
+## Steps
+
+### Kubectl
 
 Please install kubectl following the instructions available at https://kubernetes.io/docs/tasks/tools/install-kubectl/
 
-## Kubelogin
+### Kubelogin
 
 Please install the kubectl plugin "kubelogin", following the instructions available at https://github.com/int128/kubelogin
 
-## Configure the access to the cluster
+### Configure the access to the cluster
 
-Please create a `~/.kube/config` file based the following template. Make sure to adapt the context section to put your nickname for the namespace value.
+Please create a `~/.kube/config` file based the template available in this session's zip file. Make sure to adapt the context section to put your nickname for the namespace value.
 
 :warning: If you already have a ~/.kube/config file on your computer, make sure you add the q8s-staging cluster, keycloak user and the q8s-staging context in the relevant sections :warning:
 
