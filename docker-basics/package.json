@@ -1,0 +1,10 @@
+{
+  "name": "docker-basics",
+  "dependencies": {
+    "express": "^4.17.1",
+    "cowsay": "1.4.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
